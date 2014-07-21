@@ -554,15 +554,15 @@ ROOT_URLCONF = 'lms.urls'
 # NOTE: Please set ALLOWED_HOSTS to some sane value, as we do not allow the default '*'
 
 # Platform Email
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-DEFAULT_FROM_EMAIL = 'registration@example.com'
-DEFAULT_FEEDBACK_EMAIL = 'feedback@example.com'
-SERVER_EMAIL = 'devops@example.com'
-TECH_SUPPORT_EMAIL = 'technical@example.com'
-CONTACT_EMAIL = 'info@example.com'
-BUGS_EMAIL = 'bugs@example.com'
-UNIVERSITY_EMAIL = 'university@example.com'
-PRESS_EMAIL = 'press@example.com'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+DEFAULT_FROM_EMAIL = 'Jordan.Anastasiade@senecacollege.ca'
+DEFAULT_FEEDBACK_EMAIL = 'Jordan.Anastasiade@senecacollege.ca'
+SERVER_EMAIL = 'Jordan.Anastasiade@senecacollege.ca'
+TECH_SUPPORT_EMAIL = 'Jordan.Anastasiade@senecacollege.ca'
+CONTACT_EMAIL = 'Jordan.Anastasiade@senecacollege.ca'
+BUGS_EMAIL = 'Jordan.Anastasiade@senecacollege.ca'
+UNIVERSITY_EMAIL = 'Jordan.Anastasiade@senecacollege.ca'
+PRESS_EMAIL = 'Jordan.Anastasiade@senecacollege.ca'
 ADMINS = ()
 MANAGERS = ADMINS
 

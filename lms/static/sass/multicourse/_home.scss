@@ -25,8 +25,8 @@
       margin: 0 auto;
       //padding: 240px 10px 0px;
       //padding: 20px 20px 20px; #chrome
-      padding: 147px 10px 0px;
-      position: absolute;
+      padding: 100px 10px 0px;    //tried 147 and absolute
+      position: relative;
       max-width: 1200px;
       min-width: 760px;
       @include clearfix;

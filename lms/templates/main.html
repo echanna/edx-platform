@@ -105,6 +105,12 @@
 </head>
 
 <body class="<%block name='bodyclass'/> lang_${LANGUAGE_CODE}">
+<script>
+    //main.html
+    $(document).ready(function(){
+        $('li > a:contains("Discussion")').remove();
+    });
+</script>
   <a class="nav-skip" href="<%block name="nav_skip">#content</%block>">${_("Skip to this view's content")}</a>
 
   <%include file="mathjax_accessible.html" />
